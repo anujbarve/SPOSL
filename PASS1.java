@@ -1,7 +1,6 @@
-package spos_pass1;
 import java.util.*;
 
-class Assembler{
+class Assembler1{
 	
 	ArrayList<ArrayList<String>> ic = null;
 	ArrayList<ArrayList<String>> sym = null;
@@ -139,7 +138,7 @@ public class PASS1 {
 				{"CREG","RG","03"},
 		};
 		
-		Assembler assembler = new Assembler();
+		Assembler1 assembler = new Assembler1();
 		String[][] asm_with_lc;
 		asm_with_lc = assembler.assignLC(asm_code);
 		assembler.printCode(asm_with_lc);

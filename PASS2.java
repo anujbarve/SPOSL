@@ -1,4 +1,3 @@
-package spos_pass1;
 import java.util.*;
 
 class Assembler{
